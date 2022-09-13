@@ -1,1 +1,471 @@
 # kitchenstory
+Index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Importing Google fonts -->
+<link
+href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&displ ay=swap"
+rel="stylesheet"
+/>
+<link
+href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet"
+/>
+<!-- Linking CSS Stylesheets -->
+<link rel="stylesheet" href="./styles/menu.css" />
+<link rel="stylesheet" href="./styles/main.css" />
+<link rel="stylesheet" href="./styles/footer.css" />
+<title>The Tasty Kitchen</title>
+<!-- Importing icons -->
+<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+</head>
+<body>
+<!-- Header with logo and nav-bar menu options -->
+<header class="menu-head">
+<nav class="menuBar">
+<a href="./index.html"
+><img
+id="logo" src="https://encrypted-
+tbn0.gstatic.com/images?q=tbn%3AANd9GcTnOLuly95TkQ5Xcoh9x0B0yoSzdJKLwMbX9Q&usq p=CAU"
+alt="Logo"
+/></a>
+<ul class="menu-option">
+<a class="nav-link" href="#"><li>HOME</li></a>
+<a class="nav-link" href="#menu-section"><li>MENU</li></a>
+<a class="nav-link" href="./services.html"><li>SERVICES</li></a>
+<a class="nav-link" href="./contact.html"><li>CONTACT US</li></a>
+</ul>
+</nav>
+</header>
+
+<!-- Main section with content of the page -->
+<main>
+<!-- About section with title of the resturant -->
+ 
+<div class="home">
+<h1 id="head-text">Welcome To The Tasty Kitchen</h1>
+<p id="tagline">
+Laughter is brightest where food is best, we are serving it for you
+</p>
+<br />
+
+<article class="about">
+<p class="about-content">
+We are the non-veg specialist in the town. We are serving
+ 
+delicious
+ 
+
+food from<br />five years back. Our restuarant is famous for the non-veg receipes.<br />Visit our kitchen and feel the taste of our food.
+</p>
+ 
+</article>
+</div>
+<!-- Recipe menu with 2 recipes and show more button -->
+<div class="menu" id="menu-section">
+<h3 class="sub-title">MENU</h3>
+<section class="recipe-item">
+<div class="recipe">
+<img
+class="biriyani-pic" src="https://www.iff.in/sites/iff-netizen/files/home-
+page/banner-img/product_banner/Biryani-min.jpg" alt="biriyani"
+style="width: 400px; height: 300px"
+/>
+<h4 class="recipe-title">Chicken Biriyani</h4>
+<p class="about-recipe">
+Biriyani every food lover likes. Here is a Biriyani recipe
+ 
+packed for here<br />
+ 
+
+with goodness of<br />chicken and flavourful spices all tossed a delightful dish.<br />Get you favourite Chiken Biriyani
+</p>
+<span class="price-tag">at ₹.129 Only</span>
+ 
+</div>
+<div class="recipe">
+<img
+class="tandoori-pic" src="https://www.whiskaffair.com/wp-
+content/uploads/2020/05/Tandoori-Chicken-1-3.jpg" alt="tandoori"
+style="width: 400px; height: 300px"
+/>
+ 
+<h4 class="recipe-title">Tandoori Chicken</h4>
+<p class="about-recipe">
+Who don't loves the roasted chicken. We know you love it. Here
+is
+a soft,<br />succulent dry dish made by slow roasting spiced and marinated chicken in a clay oven<br />Eat the tandoori and take the flavour of it<br />
+</p>
+<span class="price-tag">at ₹.199 Only</span>
+</div>
+<div class="btn">
+<button
+class="btn-more" type="button"
+onclick="window.location.href='./menu.html'"
+>
+Show More
+</button>
+</div>
+</section>
+</div>
+
+<div class="secrvice"></div>
+</main>
+
+ 
+
+and
+ 
+<!-- Footer with socail medial icon which dericts to social media account
+
+consist of it aslo copyright and credits section-->
+<footer>
+<div class="footer">
+<h3>FOLLOW US</h3>
+<a href="https://www.instagram.com/shubhamjadhav8282/"
+ 
+target="_blank">
+<abbr title="Instagram"
+><span
+class="iconify" data-inline="false"
+data-icon="bx:bxl-instagram-alt"
+style="font-size: 40px; color: #3b3c46; margin-right: 10px"
+></span>
+</abbr>
+</a>
+<a href="https://twitter.com/Shubham_J82" target="_blank">
+<abbr title="Twitter"
+><span
+class="iconify" data-inline="false"
+data-icon="icomoon-free:twitter"
+ 
+ 
+
+Menu.html
+ 
+src="https://encrypted- tbn0.gstatic.com/images?q=tbn%3AANd9GcTnOLuly95TkQ5Xcoh9x0B0yoSzdJKLwMbX9Q&usq p=CAU"
+alt="Logo"
+/></a>
+<ul class="menu-option">
+<a class="nav-link" href="./index.html"><li>HOME</li></a>
+<a class="nav-link" href="#"><li>MENU</li></a>
+<a class="nav-link" href="./services.html"><li>SERVICES</li></a>
+<a class="nav-link" href="./contact.html"><li>CONTACT US</li></a>
+</ul>
+</nav>
+</header>
+
+<!-- Main section contains different recipes -->
+<main>
+<!-- Main recipes -->
+<h3 class="sub-title">KITCHEN MENU</h3>
+<div class="recipe-table">
+<div class="main-recipe">
+<div class="mutton-biriyani">
+<img
+src="https://www.cubesnjuliennes.com/wp- content/uploads/2020/06/Mutton-Biryani-Recipe.jpg"
+alt="mutton-biriyani" style="width: 300px; height: 350px"
+/>
+<h4 class="recipe-title main-recipe-title">Mutton Birayani</h4>
+</div>
+<div class="chicken-65">
+<img
+src="https://www.snazzycuisine.com/wp- content/uploads/2016/04/Chicken-65.jpg"
+alt="mutton-biriyani" style="width: 300px; height: 350px"
+/>
+<h4 class="recipe-title main-recipe-title">Chicken 65</h4>
+</div>
+<div class="chikken-curry">
+<img
+src="https://glebekitchen.com/wp- content/uploads/2017/01/lemonchickencoriander2.jpg"
+alt="mutton-biriyani" style="width: 300px; height: 350px"
+/>
+<h4 class="recipe-title main-recipe-title">Chicken Curry</h4>
+</div>
+</div>
+ 
+</div>
+<!-- Weekend special combo-->
+<h4 class="sub-title">WEEKEND SPECIAL COMBO</h4>
+<div class="recipe-table">
+<div class="main-recipe">
+<div class="combo-1">
+<img
+src="https://celebreat.in/wp- content/uploads/2019/10/IMG_0032_2.jpg"
+alt="chicken combo"
+style="width: 500px; height: 300px"
+/>
+<h4 class="recipe-title main-recipe-title"> Chicken Combo<br /><span class="combo-items"
+>Chicken Biriyani + Tandoori<br />Chicken[2 pcs.] + Gulab<br
+ 
+/>Jamun
+ 
+
+[2]</span
+>
+ 
+</h4>
+</div>
+<div class="combo-2">
+<img
+src="https://media-cdn.tripadvisor.com/media/photo- s/11/29/13/e3/family-pack-chicken-mutton.jpg"
+alt="combo for family" style="width: 500px; height: 300px"
+/>
+<h4 class="recipe-title main-recipe-title">
+Combo For Family<br /><span class="combo-items"
+>Chicken Biriyani + Mutton Biriyani<br />Chicken Curry +
+ 
+Boiled
+ 
+
+Egg[4 pcs.] +<br />Sprite[1 ltr]
+</span>
+</h4>
+</div>
+</div>
+<!-- Order now button when it clicked it redirects to the zomoto order
+ 
+page -->
+<div class="btn">
+<button class="btn-more" type="button"
+onclick="window.open('https://www.zomato.com/bangalore/tasty- kitchen-1-whitefield-bangalore', '_blank') "
+>
+Order Now
+</button>
+</div>
+ 
+ 
+
+Services.html
+ 
+<!-- Importing Google fonts -->
+<link
+href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&displ ay=swap"
+rel="stylesheet"
+/>
+<link
+href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet"
+/>
+<!-- Linking CSS Stylesheets -->
+<link rel="stylesheet" href="./styles/main.css" />
+<link rel="stylesheet" href="./styles/footer.css" />
+<link rel="stylesheet" href="./styles/services.css" />
+<title>The Tasty Kitchen</title>
+<!-- Importing Icons -->
+<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+<title>The Tasty Kitchen</title>
+</head>
+<body>
+<!-- Header with logo and nav-bar menu options -->
+<header class="menu-head">
+<nav class="menuBar">
+<a href="./index.html"
+><img
+id="logo" src="https://encrypted-
+tbn0.gstatic.com/images?q=tbn%3AANd9GcTnOLuly95TkQ5Xcoh9x0B0yoSzdJKLwMbX9Q&usq p=CAU"
+alt="Logo"
+/></a>
+<ul class="menu-option">
+<a class="nav-link" href="./index.html"><li>HOME</li></a>
+<a class="nav-link" href="./menu.html"><li>MENU</li></a>
+<a class="nav-link" href="#"><li>SERVICES</li></a>
+<a class="nav-link" href="./contact.html"><li>CONTACT US</li></a>
+</ul>
+</nav>
+</header>
+
+<!-- Main section contains different services -->
+<main>
+<div class="services">
+<h3 class="sub-title">OUR SERVICES</h3>
+<div class="service-content">
+<div class="dining">
+<img class="service-img" src="./assets/food.png" alt="dining" />
+<h4 class="service-title">DINING</h4>
+ 
+<hr />
+<p
+class="service-title" style="
+color: #011838;
+font-family: 'Montserrat', sans-serif; font-size: 20px;
+"
+>
+We serve you the tasty and hygiene food with providing AC/Non AC and outdoor environment.
+</p>
+</div>
+<div class="table-service">
+<img
+class="service-img" src="./assets/food-serving.png" alt="dining"
+/>
+<h4 class="service-title">TABLE SERVICE</h4>
+<hr />
+<p
+class="service-title" style="
+color: #011838;
+font-family: 'Montserrat', sans-serif; font-size: 20px;
+"
+>
+We provide the good customer service. Your comfortability is one of the important point to us.
+</p>
+</div>
+</div>
+</div>
+</main>
+
+<!-- Footer with socail medial icon which dericts to social media account and it aslo consist of copyright and credits section-->
+<footer>
+<div class="footer">
+<h3>FOLLOW US</h3>
+<a href="https://www.instagram.com/shubhamjadhav8282/" target="_blank">
+<abbr title="Instagram"
+><span
+class="iconify" data-inline="false"
+ 
+ 
+
+Contact.html
+
+ 
+><img
+id="logo" src="https://encrypted-
+tbn0.gstatic.com/images?q=tbn%3AANd9GcTnOLuly95TkQ5Xcoh9x0B0yoSzdJKLwMbX9Q&usq p=CAU"
+alt="Logo"
+/></a>
+<ul class="menu-option">
+<a class="nav-link" href="./index.html"><li>HOME</li></a>
+<a class="nav-link" href="./menu.html"><li>MENU</li></a>
+<a class="nav-link" href="./services.html"><li>SERVICES</li></a>
+<a class="nav-link" href="#"><li>CONTACT US</li></a>
+</ul>
+</nav>
+</header>
+
+<!-- Main content - Embedded google form page with iframe for contact us page -->
+<div class="contact-form">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdV-
+xYJWlXDxWH9lOSCuJ8diAiW9r5QBFqZCA_LPbXFFe_pPA/viewform?embedded=true" width="640"
+height="673" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"
+>Loading…</iframe
+>
+</div>
+
+<!-- Footer with socail medial icon which dericts to social media account and it aslo consist of copyright and credits section-->
+<footer>
+<div class="footer">
+<h3>FOLLOW US</h3>
+<a href="https://www.instagram.com/shubhamjadhav8282/" target="_blank">
+<abbr title="Instagram"
+><span
+class="iconify" data-inline="false"
+data-icon="bx:bxl-instagram-alt"
+style="font-size: 40px; color: #3b3c46; margin-right: 10px"
+></span>
+</abbr>
+</a>
+ 
+ 
+
+Contact.css
+
+Footer.css
+ 
+ 
+
+Main.css
+ 
+margin-left: 50px; margin-bottom: 10px;
+}
+
+.nav-link {
+text-decoration: none; color: #303538;
+}
+
+ul li:hover {
+background-color: #807d7d85;
+}
+
+.nav-link:hover {
+color: rgb(26, 138, 69);
+}
+
+/* Main content style properties */ #head-text {
+color: #f7f7f7; text-align: center; padding-top: 30px;
+letter-spacing: 5px;
+font-family: "Ranchers", cursive;
+}
+
+#tagline {
+text-align: center;
+font-family: sans-serif; color: rgb(243, 218, 184); font-size: 15px;
+padding-bottom: 5px; margin-top: -10px;
+}
+
+.about { padding: 90px;
+color: #f3ecc2; text-align: center;
+font-family: "Montserrat", sans-serif; font-size: 30px;
+line-height: 37px; font-weight: 600; background-image:
+url(https://www.bakespace.com/images/large/f468b5f5247496b4f854e203bd46a7cd.jp eg);
+background-repeat: no-repeat; background-size: 1500px 900px;
+ 
+ 
+
+Menu.css
+ 
+text-align: center; margin: 50px;
+}
+
+.btn-more {
+background-color: rgb(26, 138, 69); width: 150px;
+height: 50px; border: none;
+border-radius: 25px; font-family: sans-serif; font-weight: bold;
+font-size: 20px; color: #f0f0ff; cursor: pointer;
+}
+
+/*Applying styles for menu.html */
+
+.main-recipe { display: flex;
+justify-content: center;
+}
+
+.main-recipe > div { background-color: #f1f1f1; margin: 10px;
+padding: 20px; font-size: 30px;
+}
+
+.main-recipe-title { text-align: center; text-decoration: none;
+}
+
+.combo-items {
+color: rgba(47, 156, 89, 0.849); font-size: 20px;
+position: relative; top: 20px;
+}
+
+
+
+Services.css
+ 
+justify-content: center; align-items: center; padding-top: 50px; padding-bottom: 100px;
+}
+
+.service-content div { background-color: #f1f1f1; margin: 10px;
+padding: 20px; font-size: 30px; width: 200px; height: 300px; padding: 25px;
+}
+
+.service-img { width: 100px; height: 100px; position: relative; left: 56px;
+bottom: 70px;
+}
+
+.service-title {
+font-family: sans-serif; text-align: center; position: relative; bottom: 80px;
+color: goldenrod; font-size: 25px;
+}
+
+hr {
+align-items: center; position: relative; bottom: 100px;
+}
+
+.service-content {
+font-family: "Montserrat", sans-serif; font-size: 20px;
+color: rgb(27, 23, 49);
+}
