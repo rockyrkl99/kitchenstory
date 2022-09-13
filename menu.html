@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Importing Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Linking CSS Stylesheets -->
+    <link rel="stylesheet" href="./styles/menu.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <title>The Tasty Kitchen</title>
+    <!-- Importing Icons  -->
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  </head>
+  <body>
+    <!-- Header with logo and nav-bar menu options -->
+    <header class="menu-head">
+      <nav class="menuBar">
+        <a href="./index.html"
+          ><img
+            id="logo"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTnOLuly95TkQ5Xcoh9x0B0yoSzdJKLwMbX9Q&usqp=CAU"
+            alt="Logo"
+        /></a>
+        <ul class="menu-option">
+          <a class="nav-link" href="./index.html"><li>HOME</li></a>
+          <a class="nav-link" href="#"><li>MENU</li></a>
+          <a class="nav-link" href="./services.html"><li>SERVICES</li></a>
+          <a class="nav-link" href="./contact.html"><li>CONTACT US</li></a>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main section contains different recipes -->
+    <main>
+      <!-- Main recipes -->
+      <h3 class="sub-title">KITCHEN MENU</h3>
+      <div class="recipe-table">
+        <div class="main-recipe">
+          <div class="mutton-biriyani">
+            <img
+              src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/06/Mutton-Biryani-Recipe.jpg"
+              alt="mutton-biriyani"
+              style="width: 300px; height: 350px"
+            />
+            <h4 class="recipe-title main-recipe-title">Mutton Birayani</h4>
+          </div>
+          <div class="chicken-65">
+            <img
+              src="https://www.snazzycuisine.com/wp-content/uploads/2016/04/Chicken-65.jpg"
+              alt="mutton-biriyani"
+              style="width: 300px; height: 350px"
+            />
+            <h4 class="recipe-title main-recipe-title">Chicken 65</h4>
+          </div>
+          <div class="chikken-curry">
+            <img
+              src="https://glebekitchen.com/wp-content/uploads/2017/01/lemonchickencoriander2.jpg"
+              alt="mutton-biriyani"
+              style="width: 300px; height: 350px"
+            />
+            <h4 class="recipe-title main-recipe-title">Chicken Curry</h4>
+          </div>
+        </div>
+      </div>
+      <!-- Weekend special combo-->
+      <h4 class="sub-title">WEEKEND SPECIAL COMBO</h4>
+      <div class="recipe-table">
+        <div class="main-recipe">
+          <div class="combo-1">
+            <img
+              src="https://celebreat.in/wp-content/uploads/2019/10/IMG_0032_2.jpg"
+              alt="chicken combo"
+              style="width: 500px; height: 300px"
+            />
+            <h4 class="recipe-title main-recipe-title">
+              Chicken Combo<br /><span class="combo-items"
+                >Chicken Biriyani + Tandoori<br />Chicken[2 pcs.] + Gulab<br />Jamun
+                [2]</span
+              >
+            </h4>
+          </div>
+          <div class="combo-2">
+            <img
+              src="https://media-cdn.tripadvisor.com/media/photo-s/11/29/13/e3/family-pack-chicken-mutton.jpg"
+              alt="combo for family"
+              style="width: 500px; height: 300px"
+            />
+            <h4 class="recipe-title main-recipe-title">
+              Combo For Family<br /><span class="combo-items"
+                >Chicken Biriyani + Mutton Biriyani<br />Chicken Curry + Boiled
+                Egg[4 pcs.] +<br />Sprite[1 ltr]
+              </span>
+            </h4>
+          </div>
+        </div>
+        <!-- Order now button when it clicked it redirects to the zomoto order page -->
+        <div class="btn">
+          <button
+            class="btn-more"
+            type="button"
+            onclick="window.open('https://www.zomato.com/bangalore/tasty-kitchen-1-whitefield-bangalore', '_blank') "
+          >
+            Order Now
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer with socail medial icon which dericts to social media account 
+      and it aslo consist of copyright and credits section-->
+    <footer>
+       <footer>
+      <div class="footer">
+        <h3>FOLLOW US</h3>
+        <a href="https://www.instagram.com/darshan_r_27" target="_blank">
+          <abbr title="Instagram"
+            ><span
+              class="iconify"
+              data-inline="false"
+              data-icon="bx:bxl-instagram-alt"
+              style="font-size: 40px; color: #3b3c46; margin-right: 10px"
+            ></span>
+          </abbr>
+        </a>
+        <a href="https://twitter.com/darshan_r_27" target="_blank">
+          <abbr title="Twitter"
+            ><span
+              class="iconify"
+              data-inline="false"
+              data-icon="icomoon-free:twitter"
+              style="font-size: 35px; margin-left: 10px; color: #3b3c46"
+            ></span>
+          </abbr>
+        </a>
+        <div class="credits">
+          <span
+            ><br />The Tasty Kitchen &copy; 2020 . Designed by
+            <a href="https://www.linkedin.com/in/darshanr27">Darshan R</a></span
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
